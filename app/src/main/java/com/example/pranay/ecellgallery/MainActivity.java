@@ -14,6 +14,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -71,6 +72,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
+
     private void fetchImages() {
         images.clear();
         try {
